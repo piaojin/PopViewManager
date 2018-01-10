@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PJPopViewManager"
-  s.version      = "1.0.1"
-  s.summary      = "A small and fast reusable popover management tool."
+  s.version      = "1.0.2"
+  s.summary      = "PJPopViewManager is a small and fast reusable popover management tool."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  A small, fast reusable popover management tool that pops up a custom view.
+  PJPopViewManager is a small, fast reusable popover management tool that pops up a custom view.
                    DESC
 
   s.homepage     = "https://github.com/piaojin/PopViewManager"
