@@ -8,14 +8,14 @@
 
 import UIKit
 
-enum PopFromDirection {
+public enum PopFromDirection {
     case bottom
     case top
     case left
     case right
 }
 
-struct PopViewMargin {
+public struct PopViewMargin {
     var left: CGFloat = 0.0
     var right: CGFloat = 0.0
     var bottom: CGFloat = 0.0
@@ -53,7 +53,7 @@ struct PopViewMargin {
     }
 }
 
-struct PopViewOptions {
+public struct PopViewOptions {
     var margin: PopViewMargin = PopViewMargin()
     var popFromDirection: PopFromDirection = .bottom
 }
@@ -72,7 +72,7 @@ extension PopViewManagerDelegate {
     }
 }
 
-class PJPopViewManager {
+open class PJPopViewManager {
     
     static var shared: PJPopViewManager = PJPopViewManager()
     
