@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PJPopViewManager"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "PJPopViewManager is a small and fast reusable popover management tool."
 
   # This description is used to generate tags and improve search results.
@@ -136,3 +136,5 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
 end
+
+
