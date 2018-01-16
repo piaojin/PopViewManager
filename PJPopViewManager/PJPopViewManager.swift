@@ -120,6 +120,9 @@ extension PJPopViewManager {
     }
     
     func show(_ showView: UIView, inView: UIView?, coverView: UIView?, option: PopViewOptions?, showDuration: TimeInterval = 0.3, isShowCoverView: Bool = true) {
+        if self.isShow {
+            return
+        }
         self.delegate?.willShow?()
         if let rootView = inView {
             self.rootView = rootView
